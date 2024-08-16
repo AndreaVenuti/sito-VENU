@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 250, 224);
+}
+
+header {
+    background-color: #333;
+    height: 200px;
+    padding: 0px 20px;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#logo{
+    height: 130px;
+    position: fixed;
+}
+
+h1{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Per evitare il collasso dei float */
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#box-testo{
+    padding: 20px;
+    margin: 0px;
+}
+
+h2{
+    margin: 0px;
+}
+
+ol{
+    padding-left: 17px;
+}
+
+/* schermi piccoli */
+@media screen and (max-width: 710px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    header {
+        background-color: #333;
+        height: 200px;
+        padding: 0px 20px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        display: none;
+    }
+}
