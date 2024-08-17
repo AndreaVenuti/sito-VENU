@@ -55,6 +55,14 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+#home{
+    background-color: #222;
+}
+
+#altriSiti{
+    background-color: #222;
+}
+
 /* Per evitare il collasso dei float */
 nav::after {
     content: "";
