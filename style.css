@@ -83,6 +83,10 @@ ol{
     padding-left: 17px;
 }
 
+#link{
+    margin-bottom: 5px;
+}
+
 /* schermi piccoli */
 @media screen and (max-width: 710px){
     h1{
