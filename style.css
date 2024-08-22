@@ -63,6 +63,10 @@ nav ul li a:hover {
     background-color: #222;
 }
 
+#servizi{
+    background-color: #222;
+}
+
 /* Per evitare il collasso dei float */
 nav::after {
     content: "";
@@ -83,8 +87,16 @@ ol{
     padding-left: 17px;
 }
 
+ul{
+    padding-left: 17px;
+}
+
 #link{
     margin-bottom: 5px;
+}
+
+h3{
+    padding-top: 30px;
 }
 
 /* schermi piccoli */
