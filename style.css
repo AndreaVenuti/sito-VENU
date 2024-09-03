@@ -11,14 +11,15 @@ header {
     height: 200px;
     padding: 0px 20px;
     margin: 0px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1;
+    place-items: center;
     text-align: center;
-    align-items: center;
 }
 
 #logo{
     height: 130px;
-    position: fixed;
 }
 
 h1{
@@ -32,17 +33,22 @@ h1{
 nav {
     background-color: #444;
     overflow: hidden;
+    width: 100%;
+
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
 }
 
-nav ul li {
-    float: left;
-}
+/* nav ul li {
+
+} */
 
 nav ul li a {
     display: block;
@@ -67,6 +73,7 @@ nav ul li a:hover {
 #servizi{
     background-color: #222;
 }
+
 
 /* Per evitare il collasso dei float */
 nav::after {
@@ -97,7 +104,7 @@ h2::after{
 }
 
 h3{
-    padding-top: 30px;
+    padding-top: 10px;
     position: relative;
     width: max-content;
 }
@@ -126,7 +133,7 @@ ul{
 
 
 /* schermi piccoli */
-@media screen and (max-width: 710px){
+@media screen and (max-width: 725px){
     h1{
         font-size: 40px;
     }
