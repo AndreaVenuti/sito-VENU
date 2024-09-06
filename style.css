@@ -34,7 +34,6 @@ nav {
     background-color: #444;
     overflow: hidden;
     width: 100%;
-
 }
 
 nav ul {
@@ -54,7 +53,7 @@ nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 0;
     text-decoration: none;
 }
 
